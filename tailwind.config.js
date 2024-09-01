@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./public/*.{html,css,js}"],
   theme: {
+    screens: {
+      'sm': {'max': '640px'},
+      'md': '641px',
+    },
     extend: {
+      fontFamily: {
+        'sans': "'Ubuntu', system-ui" 
+      },
+      backgroundSize: {
+        '100-100': '100% 100%',
+      },
       colors: {
         'marineBlue' :'hsl(213, 96%, 18%)',
         'purplishBlue' :'hsl(243, 100%, 62%)',
@@ -14,7 +24,7 @@ module.exports = {
         'magnolia' :'hsl(217, 100%, 97%)',
         'alabaster' :'hsl(231, 100%, 99%)',
         'whitee' :'hsl(0, 0%, 100%)',
-      }
+      },
     },
   },
   plugins: [],
