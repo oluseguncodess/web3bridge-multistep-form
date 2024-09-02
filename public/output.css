@@ -980,15 +980,11 @@ video {
 }
 
 .bg-mobile-sidebar{
-  background-image: url('../dist/images/bg-sidebar-mobile');
+  background-image: url('/dist/images/bg-sidebar-mobile.svg');
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/bg-sidebar-mobile\.svg\'\)\]{
-  background-image: url('../assets/images/bg-sidebar-mobile.svg');
-}
-
-.bg-\[url\(\'\/assets\/images\/bg-sidebar-mobile\.svg\'\)\]{
-  background-image: url('/assets/images/bg-sidebar-mobile.svg');
+.bg-laptop-sidebar{
+  background-image: url('/dist/images/bg-sidebar-mobile.svg');
 }
 
 .bg-100-100{
@@ -1426,12 +1422,12 @@ video {
     background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
   }
 
-  .md\:bg-\[url\(\'\.\.\/assets\/images\/bg-sidebar-mobile\.svg\'\)\]{
-    background-image: url('../assets/images/bg-sidebar-mobile.svg');
-  }
-
   .md\:bg-\[url\(\'\/assets\/images\/bg-sidebar-mobile\.svg\'\)\]{
     background-image: url('/assets/images/bg-sidebar-mobile.svg');
+  }
+
+  .md\:bg-laptop-sidebar{
+    background-image: url('/dist/images/bg-sidebar-mobile.svg');
   }
 
   .md\:p-4{
