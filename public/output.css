@@ -794,6 +794,10 @@ video {
   width: 100%;
 }
 
+.w-\[90\%\]{
+  width: 90%;
+}
+
 .border-collapse{
   border-collapse: collapse;
 }
@@ -850,6 +854,10 @@ video {
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .rounded-full{
@@ -995,6 +1003,11 @@ video {
   background-repeat: no-repeat;
 }
 
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -1087,8 +1100,17 @@ video {
   line-height: 1rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-semibold{
   font-weight: 600;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .tracking-wide{
@@ -1119,6 +1141,18 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-opacity-35{
+  --tw-text-opacity: 0.35;
+}
+
+.text-opacity-55{
+  --tw-text-opacity: 0.55;
+}
+
+.text-opacity-75{
+  --tw-text-opacity: 0.75;
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1141,6 +1175,45 @@ video {
 
 .outline-marineBlue{
   outline-color: hsl(213, 96%, 18%);
+}
+
+.focus-within\:bg-lightBlue:focus-within{
+  --tw-bg-opacity: 1;
+  background-color: hsl(206 94% 87% / var(--tw-bg-opacity));
+}
+
+.focus-within\:outline:focus-within{
+  outline-style: solid;
+}
+
+.focus-within\:outline-1:focus-within{
+  outline-width: 1px;
+}
+
+.focus-within\:outline-marineBlue:focus-within{
+  outline-color: hsl(213, 96%, 18%);
+}
+
+.hover\:outline:hover{
+  outline-style: solid;
+}
+
+.hover\:outline-1:hover{
+  outline-width: 1px;
+}
+
+.hover\:outline-marineBlue:hover{
+  outline-color: hsl(213, 96%, 18%);
+}
+
+.focus\:bg-lightBlue:focus{
+  --tw-bg-opacity: 1;
+  background-color: hsl(206 94% 87% / var(--tw-bg-opacity));
+}
+
+.focus\:bg-strawRed:focus{
+  --tw-bg-opacity: 1;
+  background-color: hsl(354 84% 57% / var(--tw-bg-opacity));
 }
 
 .focus\:outline:focus{
@@ -1181,6 +1254,14 @@ video {
     margin-right: auto;
   }
 
+  .sm\:mb-4{
+    margin-bottom: 1rem;
+  }
+
+  .sm\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
   .sm\:hidden{
     display: none;
   }
@@ -1201,12 +1282,42 @@ video {
     max-width: 460px;
   }
 
+  .sm\:items-center{
+    align-items: center;
+  }
+
   .sm\:gap-4{
     gap: 1rem;
   }
 
+  .sm\:p-6{
+    padding: 1.5rem;
+  }
+
+  .sm\:p-5{
+    padding: 1.25rem;
+  }
+
+  .sm\:p-4{
+    padding: 1rem;
+  }
+
+  .sm\:p-3{
+    padding: 0.75rem;
+  }
+
   .sm\:pt-6{
     padding-top: 1.5rem;
+  }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1351,6 +1462,10 @@ video {
 
   .md\:gap-6{
     gap: 1.5rem;
+  }
+
+  .md\:gap-8{
+    gap: 2rem;
   }
 
   .md\:rounded-md{
