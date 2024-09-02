@@ -979,12 +979,12 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-mobile-sidebar{
-  background-image: url('/dist/images/bg-sidebar-mobile.svg');
+.bg-laptop-sidebar{
+  background-image: url('/public/images/bg-sidebar-mobile.svg');
 }
 
-.bg-laptop-sidebar{
-  background-image: url('/dist/images/bg-sidebar-mobile.svg');
+.bg-mobile-sidebar{
+  background-image: url('/public/images/bg-sidebar-mobile.svg');
 }
 
 .bg-100-100{
@@ -1422,12 +1422,8 @@ video {
     background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
   }
 
-  .md\:bg-\[url\(\'\/assets\/images\/bg-sidebar-mobile\.svg\'\)\]{
-    background-image: url('/assets/images/bg-sidebar-mobile.svg');
-  }
-
   .md\:bg-laptop-sidebar{
-    background-image: url('/dist/images/bg-sidebar-mobile.svg');
+    background-image: url('/public/images/bg-sidebar-mobile.svg');
   }
 
   .md\:p-4{
