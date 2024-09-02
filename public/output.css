@@ -980,11 +980,11 @@ video {
 }
 
 .bg-laptop-sidebar{
-  background-image: url('/public/images/bg-sidebar-mobile.svg');
+  background-image: url('../public/images/bg-sidebar-mobile.svg');
 }
 
 .bg-mobile-sidebar{
-  background-image: url('/public/images/bg-sidebar-mobile.svg');
+  background-image: url('../public/images/bg-sidebar-mobile.svg');
 }
 
 .bg-100-100{
@@ -1423,7 +1423,7 @@ video {
   }
 
   .md\:bg-laptop-sidebar{
-    background-image: url('/public/images/bg-sidebar-mobile.svg');
+    background-image: url('../public/images/bg-sidebar-mobile.svg');
   }
 
   .md\:p-4{
