@@ -13,71 +13,81 @@
 </head>
 <body class="text-base">
 
-  <div class="w-full bg-lightBlue h-screen">
-    <div class="form_container h-screen md:bg-whitee relative">
+  <div class="w-full bg-lightBlue h-screen relative">
+    <div class="form_container sm:h-screen md:bg-whitee sm:relative md:flex md:w-[65%] md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:h-[600px] md:gap-5 md:items-center md:p-4 md:max-w-[885px]  md:justify-between">
+
       <!-- Sidebar start -->
-      <div class="sidebar bg-[url('../assets/images/bg-sidebar-mobile.svg')] bg-no-repeat bg-cover bg-center h-44">
+      <div class="sidebar bg-[url('../assets/images/bg-sidebar-mobile.svg')] bg-no-repeat bg-cover bg-center sm:h-44 md:rounded-md md:bg-[url('../assets/images/bg-sidebar-mobile.svg')] md:w-[200px] md:py-9 px-9 md:box-content md:h-[500px]">
         
-        <div class="steps_containers flex justify-center sm:gap-4 sm:pt-6">
-          <div class="steps">
+        <div class="steps_containers flex justify-center sm:gap-4 sm:pt-6 md:flex-col md:gap-6">
+          <div class="steps md:flex md:gap-4">
             <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10 locator">1</div>
             <div class="step_text md:flex md:flex-col sm:hidden">
-              <span>Step 1</span>
-              <b>Your Info</b></div>
+              <span class="text-white text-sm">Step 1</span>
+              <b class="text-white tracking-wider">Your Info</b></div>
           </div>
-          <div class="steps">
-            <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10">2</div>
+          <div class="steps md:flex md:gap-4">
+            <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10 text-white">2</div>
             <div class="step_text md:flex md:flex-col sm:hidden">
-              <span>Step 2</span>
-              <b>Select plan</b></div>
+              <span class="text-white text-sm">Step 2</span>
+              <b class="text-white tracking-wider">Select plan</b></div>
           </div>
-          <div class="steps">
-            <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10">3</div>
+          <div class="steps md:flex md:gap-4">
+            <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10 text-white">3</div>
             <div class="step_text md:flex md:flex-col sm:hidden">
-              <span>Step 3</span>
-              <b>Add-ons</b></div>
+              <span class="text-white text-sm">Step 3</span>
+              <b class="text-white tracking-wider">Add-ons</b></div>
           </div>
-          <div class="steps">
-            <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10">4</div>
+          <div class="steps md:flex md:gap-4">
+            <div class="border-solid border-alabaster rounded-full p-4 border-2 flex justify-center items-center h-10 w-10 text-white">4</div>
             <div class="step_text md:flex md:flex-col sm:hidden">
-              <span>Step 4</span>
-              <b>Summary</b></div>
+              <span class="text-white text-sm class="text-white tracking-wider"">Step 4</span>
+              <b class="text-white tracking-wider">Summary</b></div>
           </div>
         </div>
 
       </div>
 
       <!-- form -->
-
-      <div class="form bg-white w-[90%] mx-auto py-8 rounded-md absolute top-28 left-0 right-0">
-        <div class="form_content w-[85%] mx-auto">
-          <div class="form_info">
-            <h1 class="text-marineBlue text-2xl font-semibold mb-3">Personal info</h1>
+      <div class="form bg-white sm:w-[90%] sm:mx-auto py-8 rounded-md sm:absolute sm:top-28 sm:left-0 sm:right-0 md:w-[60%] sm:max-w-[460px] md:max-w-[500px] md:h-[550px]">
+        <div class="form_content w-[95%] mx-auto md:max-w-[445px]">
+          <div class="form_info md:mb-8">
+            <h1 class="text-marineBlue text-2xl font-semibold mb-3 md:text-3xl">Personal info</h1>
             <p class="opacity-[0.35] text-base] mb-3">Please provide your name, email address, and phone number.</p>
           </div>
 
           <form action="" method="post">
 
             <label for="name" class="text-marineBlue text-xs">Name</label><br>
-            <input type="text" id="name" placeholder="e.g. Stephen King" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline"><br>
+            <input type="text" id="name" placeholder="e.g. Stephen King" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 md:h-12 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline md:mt-1 md:mb-5"><br>
 
             <label for="email" class="text-marineBlue text-xs">Email Address</label><br>
-            <input type="email" id="email" placeholder="e.g. stephen King@lorem.com" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline"><br>
+            <input type="email" id="email" placeholder="e.g. stephen King@lorem.com" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 md:h-12 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline md:mt-1 md:mb-5"><br>
 
             <label for="tel-no" class="text-marineBlue text-xs">Phone Number</label><br>
-            <input type="tel" id="tel-no" placeholder="e.g. +1 234 567 890" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline"><br>
+            <input type="tel" id="tel-no" placeholder="e.g. +1 234 567 890" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 md:h-12 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline md:mt-1 md:mb-5"><br>
           </form>
+
+          <div class="sm:hidden w-full bg-whitee flex justify-end items-center mt-16">
+            <button class="sm:hidden bg-marineBlue p-3 rounded-md text-white text-sm w-28">
+              Next Step
+            </button>
+          </div>
+          
         </div>
       </div>
 
-      <!-- footer's nav -->
-      <div class="footer_nav bg-white sm:absolute w-full sm:bottom-0 flex sm:justify-end p-4">
-        <button class="bg-marineBlue p-3 rounded-md text-white text-sm w-28">
-          Next Step
-        </button>
-       </div>
-      
     </div>
+
+    <!-- footer's nav -->
+    <div class="footer_nav bg-white absolute w-full bottom-0 flex justify-end p-4 md:hidden">
+
+      <button class="bg-marineBlue p-3 rounded-md text-white text-sm w-28">
+        Next Step
+      </button>
+
+     </div>
+
   </div>
 </body>
 </html>

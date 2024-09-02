@@ -3,8 +3,8 @@ module.exports = {
   content: ["./public/*.{html,css,js}"],
   theme: {
     screens: {
-      'sm': {'max': '640px'},
-      'md': '641px',
+      'sm': {'max': '870px'},
+      'md': '871px',
     },
     extend: {
       fontFamily: {
