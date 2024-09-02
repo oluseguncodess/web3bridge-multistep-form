@@ -25,6 +25,10 @@ module.exports = {
         'alabaster' :'hsl(231, 100%, 99%)',
         'whitee' :'hsl(0, 0%, 100%)',
       },
+      backgroundImage: {
+        'mobile-sidebar': "url('../dist/images/bg-sidebar-mobile')",
+        'laptop-sidebar': "url('../dist/images/bg-sidebar-mobile')",
+      },
     },
   },
   plugins: [],
