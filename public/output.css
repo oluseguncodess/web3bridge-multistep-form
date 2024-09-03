@@ -807,7 +807,7 @@ video {
 }
 
 .bg-mobile-sidebar{
-  background-image: url('/src/images/bg_sidebar_mobile.svg');
+  background-image: url('images/bg_sidebar_mobile.svg');
 }
 
 .bg-cover{
