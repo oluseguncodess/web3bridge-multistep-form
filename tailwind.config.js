@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/*.{html,css,js,images}"],
+  content: ["./*.{html,css,js,images}"],
   theme: {
     screens: {
       'sm': {'max': '870px'},
@@ -26,8 +26,8 @@ module.exports = {
         'whitee' :'hsl(0, 0%, 100%)',
       },
       backgroundImage: {
-        'mobile-sidebar': "url('/public/images/bg-sidebar-mobile.svg')",
-        'laptop-sidebar': "url('/public/images/bg-sidebar-mobile.svg')",
+        'mobile-sidebar': "url('/images/bg-sidebar-mobile.svg')",
+        'laptop-sidebar': "url('/images/bg-sidebar-mobile.svg')",
       },
     },
   },
