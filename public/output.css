@@ -1011,6 +1011,10 @@ video {
   background-image: url('../public/images/bg-sidebar-mobile.svg');
 }
 
+.bg-\[url\(\'\.\.\/public\/images\/bg_sidebar_mobile\.svg\'\)\]{
+  background-image: url('../public/images/bg_sidebar_mobile.svg');
+}
+
 .bg-100-100{
   background-size: 100% 100%;
 }
