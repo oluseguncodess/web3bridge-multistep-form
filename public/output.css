@@ -806,7 +806,7 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/images\/bg_sidebar_mobile\.svg\'\)\]{
+.bg-mobile-sidebar{
   background-image: url('/images/bg_sidebar_mobile.svg');
 }
 

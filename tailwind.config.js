@@ -26,8 +26,8 @@ module.exports = {
         'whitee' :'hsl(0, 0%, 100%)',
       },
       backgroundImage: {
-        'mobile-sidebar': "url('/images/bg-sidebar-mobile.svg')",
-        'laptop-sidebar': "url('/images/bg-sidebar-mobile.svg')",
+        'mobile-sidebar': "url('/images/bg_sidebar_mobile.svg')",
+        'laptop-sidebar': "url('/images/bg_sidebar_mobile.svg')",
       },
     },
   },
