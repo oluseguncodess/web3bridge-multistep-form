@@ -1,5 +1,5 @@
 //get the btn to switch to the next page (plan page)
-const nextPage = document.querySelector(".next-btn");
+const nextPage = document.querySelectorAll(".next-btn");
 //get the form page
 const formPage = document.querySelector(".form");
 //get the plan page 
@@ -29,10 +29,13 @@ function nextPlan() {
     counter++
 }
 
-nextPage.addEventListener("click", ()=> {
-    if(counter == 0) {
-        stepNumbers[counter].classList.add("locator");
-        stepNumbers[counter].classList.replace("text-white", "text-black");
-        nextPlan();
-    }
+// it's going to add event listener for each button in the node list (we used querySelectorAll)
+nextPage.forEach(function(button) {
+    button.addEventListener("click", ()=> {
+        if(counter == 0) {
+            stepNumbers[counter].classList.add("locator");
+            stepNumbers[counter].classList.replace("text-white", "text-black");
+            nextPlan();
+        }
+    })
 })

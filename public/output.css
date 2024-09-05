@@ -752,6 +752,10 @@ video {
   gap: 2rem;
 }
 
+.gap-9{
+  gap: 2.25rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
@@ -1080,6 +1084,11 @@ video {
 
   .md\:top-1\/2{
     top: 50%;
+  }
+
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .md\:mb-5{
