@@ -630,6 +630,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mb-9{
+  margin-bottom: 2.25rem;
+}
+
 .box-content{
   box-sizing: content-box;
 }
@@ -672,6 +676,10 @@ video {
 
 .h-44{
   height: 11rem;
+}
+
+.h-\[150px\]{
+  height: 150px;
 }
 
 .w-10{
@@ -1103,6 +1111,10 @@ video {
     margin-top: 0.25rem;
   }
 
+  .md\:mb-9{
+    margin-bottom: 2.25rem;
+  }
+
   .md\:box-content{
     box-sizing: content-box;
   }
@@ -1131,6 +1143,10 @@ video {
     height: 600px;
   }
 
+  .md\:h-\[150px\]{
+    height: 150px;
+  }
+
   .md\:w-\[200px\]{
     width: 200px;
   }
@@ -1141,6 +1157,10 @@ video {
 
   .md\:w-\[65\%\]{
     width: 65%;
+  }
+
+  .md\:w-\[450px\]{
+    width: 450px;
   }
 
   .md\:max-w-\[445px\]{
