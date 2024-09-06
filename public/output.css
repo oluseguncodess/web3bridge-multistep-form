@@ -1350,6 +1350,10 @@ video {
     height: 150px;
   }
 
+  .md\:h-\[180px\]{
+    height: 180px;
+  }
+
   .md\:w-\[200px\]{
     width: 200px;
   }

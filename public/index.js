@@ -35,7 +35,7 @@ const price = document.querySelectorAll(".price");
 const season = document.querySelectorAll(".season");
 
 // get free plan for yearly subscription
-const freePlan = document.querySelector(".free-plan");
+const freePlan = document.querySelectorAll(".free-plan");
 
 let counter = 0;
 
@@ -105,6 +105,9 @@ prevBtn.forEach(function(prevBtn) {
 
             // show the form page
             formPage.classList.remove("hidden");
+
+            // reset toggle button
+            toggle.checked = false;
         }
     })
 })
@@ -112,12 +115,44 @@ prevBtn.forEach(function(prevBtn) {
 //add event listner to the toggle function so it can be functional
 toggle.addEventListener("click", ()=> {
     if(toggle.checked) {
+        // the appropriate color must be set for each toggle.
         monthly.classList.replace("text-marineBlue", "text-coolGray");
         yearly.classList.replace("text-coolGray", "text-marineBlue");
+
+        //free plan text for yearly plans must show
+        freePlan.forEach((freePlans)=> {
+            freePlans.classList.remove("hidden")
+        });
+
+        // change the pricing for yearly plans
+        price[0].innerText = 90;
+        price[1].innerText = 120;
+        price[2].innerText = 150;
+
+        // change the abbrevation from "mo" to "yr" 
+        season.forEach((sea)=> {
+            sea.innerText = "yr";
+        })
     }
 
     if (!toggle.checked) {
+        // the appropriate color must be set for each toggle.
         monthly.classList.replace("text-coolGray", "text-marineBlue");
         yearly.classList.replace("text-marineBlue", "text-coolGray");
+
+        // free plan text for monthly plans should be removed!
+        freePlan.forEach((freePlans)=> {
+            freePlans.classList.add("hidden")
+        })
+
+        // change the pricing back to the monthly plan prices
+        price[0].innerText = 9;
+        price[1].innerText = 12;
+        price[2].innerText = 15;
+
+        // change the abbrevation back to "mo" from "yr" 
+        season.forEach((sea)=> {
+            sea.innerText = "mo";
+        })
     }
 })
