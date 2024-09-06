@@ -19,6 +19,24 @@ const btnContainer = document.querySelectorAll(".button-container");
 // get the prev buttons
 const prevBtn = document.querySelectorAll(".prevBtn");
 
+// get the toggle btn
+const toggle = document.querySelector(".toggle");
+
+//get monthly paragraph button
+const monthly = document.querySelector(".monthly");
+
+// get yearly paragraph button
+const yearly = document.querySelector(".yearly");
+
+// get price 
+const price = document.querySelectorAll(".price");
+
+// get season
+const season = document.querySelectorAll(".season");
+
+// get free plan for yearly subscription
+const freePlan = document.querySelector(".free-plan");
+
 let counter = 0;
 
 
@@ -89,4 +107,17 @@ prevBtn.forEach(function(prevBtn) {
             formPage.classList.remove("hidden");
         }
     })
+})
+
+//add event listner to the toggle function so it can be functional
+toggle.addEventListener("click", ()=> {
+    if(toggle.checked) {
+        monthly.classList.replace("text-marineBlue", "text-coolGray");
+        yearly.classList.replace("text-coolGray", "text-marineBlue");
+    }
+
+    if (!toggle.checked) {
+        monthly.classList.replace("text-coolGray", "text-marineBlue");
+        yearly.classList.replace("text-marineBlue", "text-coolGray");
+    }
 })

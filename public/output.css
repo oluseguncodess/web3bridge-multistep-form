@@ -664,6 +664,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .box-content{
   box-sizing: content-box;
 }
