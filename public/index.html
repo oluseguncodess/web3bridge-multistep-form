@@ -72,10 +72,7 @@
             <input type="tel" id="tel-no" placeholder="e.g. +1 234 567 890" class="border-solid border-[1px] border-lightGray rounded-md p-1 opacity-[1] h-10 md:h-12 w-full mb-3 text-[0.9375rem] py-1 px-2 focus:outline-marineBlue focus:outline-[1px] focus:outline md:mt-1 md:mb-5"><br>
           </form>
 
-          <div class="sm:hidden w-full bg-whitee flex justify-between items-center mt-16">
-            <button class="prevBtn text-coolGray text-base w-20 sm:hidden">
-              Go Back
-            </button>
+          <div class="sm:hidden w-full bg-whitee flex justify-end items-center mt-16">
 
             <button class="next-btn sm:hidden bg-marineBlue p-3 rounded-md text-white text-base w-28">
               Next Step
@@ -133,8 +130,8 @@
             <p class="yearly text-coolGray text-sm">Yearly</p>
           </div>
           
-          <div class="sm:hidden w-full bg-whitee flex justify-between items-center mt-24">
-            <button class="prevBtn text-coolGray text-base w-20 sm:hidden">
+          <div class="button-container sm:hidden w-full bg-whitee flex justify-between items-center mt-24">
+            <button class="prevBtn plan-prevBtn text-coolGray text-base w-20 hidden">
               Go Back
             </button>
 
@@ -149,9 +146,9 @@
     </div>
 
     <!-- footer's nav -->
-    <div class="footer_nav bg-white absolute w-full bottom-0 flex justify-between p-4 md:hidden">
+    <div class="button-container footer_nav bg-white absolute w-full bottom-0 flex justify-end p-4 md:hidden">
 
-      <button class="prevBtn text-coolGray text-sm w-28">
+      <button class="prevBtn footer-prevBtn text-coolGray text-sm w-28 hidden">
         Go Back
       </button>
 

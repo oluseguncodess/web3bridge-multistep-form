@@ -556,6 +556,16 @@ video {
   --tw-contain-style:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 871px){
+  .container{
+    max-width: 871px;
+  }
+}
+
 .locator{
   --tw-bg-opacity: 1;
   background-color: hsl(206 94% 87% / var(--tw-bg-opacity));
