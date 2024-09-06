@@ -601,6 +601,10 @@ video {
   top: 7rem;
 }
 
+.top-0{
+  top: 0px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -634,12 +638,32 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
 .box-content{
   box-sizing: content-box;
 }
 
 .block{
   display: block;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 .flex{
@@ -682,6 +706,38 @@ video {
   height: 150px;
 }
 
+.h-0{
+  height: 0px;
+}
+
+.h-\[34px\]{
+  height: 34px;
+}
+
+.h-\[20px\]{
+  height: 20px;
+}
+
+.h-\[25px\]{
+  height: 25px;
+}
+
+.h-\[30px\]{
+  height: 30px;
+}
+
+.h-\[40px\]{
+  height: 40px;
+}
+
+.h-\[45px\]{
+  height: 45px;
+}
+
+.h-\[50px\]{
+  height: 50px;
+}
+
 .w-10{
   width: 2.5rem;
 }
@@ -702,6 +758,22 @@ video {
   width: 100%;
 }
 
+.w-0{
+  width: 0px;
+}
+
+.w-\[26px\]{
+  width: 26px;
+}
+
+.w-\[60px\]{
+  width: 60px;
+}
+
+.w-20{
+  width: 5rem;
+}
+
 .border-collapse{
   border-collapse: collapse;
 }
@@ -718,6 +790,10 @@ video {
 
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .resize{
@@ -762,6 +838,10 @@ video {
 
 .gap-9{
   gap: 2.25rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .rounded-full{
@@ -816,6 +896,16 @@ video {
 .bg-whitee{
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-coolGray{
+  --tw-bg-opacity: 1;
+  background-color: hsl(231 11% 63% / var(--tw-bg-opacity));
+}
+
+.bg-lightGray{
+  --tw-bg-opacity: 1;
+  background-color: hsl(229 24% 87% / var(--tw-bg-opacity));
 }
 
 .bg-mobile-sidebar{
@@ -940,6 +1030,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-lightGray{
+  --tw-text-opacity: 1;
+  color: hsl(229 24% 87% / var(--tw-text-opacity));
+}
+
 .text-opacity-75{
   --tw-text-opacity: 0.75;
 }
@@ -956,8 +1051,94 @@ video {
   opacity: 1;
 }
 
+.opacity-0{
+  opacity: 0;
+}
+
 .outline{
   outline-style: solid;
+}
+
+.filter{
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-\[\.4s\]{
+  transition-duration: .4s;
+}
+
+.before\:absolute::before{
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:left-1::before{
+  content: var(--tw-content);
+  left: 0.25rem;
+}
+
+.before\:bottom-1::before{
+  content: var(--tw-content);
+  bottom: 0.25rem;
+}
+
+.before\:h-\[26px\]::before{
+  content: var(--tw-content);
+  height: 26px;
+}
+
+.before\:h-\[20px\]::before{
+  content: var(--tw-content);
+  height: 20px;
+}
+
+.before\:h-\[18px\]::before{
+  content: var(--tw-content);
+  height: 18px;
+}
+
+.before\:w-\[26px\]::before{
+  content: var(--tw-content);
+  width: 26px;
+}
+
+.before\:w-\[20px\]::before{
+  content: var(--tw-content);
+  width: 20px;
+}
+
+.before\:w-\[10px\]::before{
+  content: var(--tw-content);
+  width: 10px;
+}
+
+.before\:bg-whitee::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.before\:duration-\[\.4s\]::before{
+  content: var(--tw-content);
+  transition-duration: .4s;
+}
+
+.before\:content-\[\"\"\]::before{
+  --tw-content: "";
+  content: var(--tw-content);
+}
+
+.checked\:bg-marineBlue:checked{
+  --tw-bg-opacity: 1;
+  background-color: hsl(213 96% 18% / var(--tw-bg-opacity));
 }
 
 .focus-within\:bg-lightBlue:focus-within{
@@ -1033,6 +1214,14 @@ video {
 
   .sm\:mb-5{
     margin-bottom: 1.25rem;
+  }
+
+  .sm\:mb-6{
+    margin-bottom: 1.5rem;
+  }
+
+  .sm\:mb-7{
+    margin-bottom: 1.75rem;
   }
 
   .sm\:hidden{

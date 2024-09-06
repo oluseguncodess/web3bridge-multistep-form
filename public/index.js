@@ -23,7 +23,7 @@ function nextPlan() {
 
     // remove the bg color and change text color of step one
     stepOne.classList.remove("locator");
-    stepOne.classList.add("text-black");
+    stepOne.classList.add("text-white");
 
     // increment the counter
     counter++
